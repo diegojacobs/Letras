@@ -1,5 +1,60 @@
-$dark-color: #aaa;
-
-body{
-  background: $dark-color;
+/*Variables*/
+$width: 100px;
+$height: 100px;
+$s-color: blue;
+$font-size: 25px;
+$font-weight: bold;
+.squares{
+    position: relative;
+}
+.square {
+    border: 1px solid black;
+    color: white;
+    height: $height;
+    line-height: $height;
+    position: absolute;
+    text-align:center;
+    width: $width;
+    font-size: $font-size;
+    font-weight: $font-weight;
+}
+.s1 {
+    background-color: #FCF407;
+    left: 0px;
+    top: 525px;
+}
+.s2 {
+    background-color:#FC3700;
+    left: 75px;
+    top: 450px;
+    z-index: 3;
+}
+.s3 {
+    background-color: #FCF407;
+    left: 150px;
+    top: 375px;
+    z-index: 2;
+}
+.s4 {
+    background-color: #000000;
+    left: 225px;
+    top: 300px;
+    z-index: 0;
+}
+.s5 {
+    background-color:#3CE504;
+    left: 300px;
+    top: 225px;
+    z-index: 0;
+}
+.s6 {
+    background-color:#040FE5;
+    left: 375px;
+    top: 150px;
+    z-index: 2;
+}
+.s7 {
+    background-color:#6300A5;
+    left: 450px;
+    top: 75px;
 }
