@@ -1,54 +1,94 @@
 /*Variables*/
+/*loops*/
+.s1 {
+  background-color: blue; }
+
+.s1 {
+  left: 0px; }
+
+.s1 {
+  top: 450px; }
+
+.s2 {
+  background-color: #1414ff; }
+
+.s2 {
+  left: 75px; }
+
+.s2 {
+  top: 375px; }
+
+.s3 {
+  background-color: #2828ff; }
+
+.s3 {
+  left: 150px; }
+
+.s3 {
+  top: 300px; }
+
+.s4 {
+  background-color: #3c3cff; }
+
+.s4 {
+  left: 225px; }
+
+.s4 {
+  top: 225px; }
+
+.s5 {
+  background-color: #5050ff; }
+
+.s5 {
+  left: 300px; }
+
+.s5 {
+  top: 150px; }
+
+.s6 {
+  background-color: #6464ff; }
+
+.s6 {
+  left: 375px; }
+
+.s6 {
+  top: 75px; }
+
+.s7 {
+  background-color: #7878ff; }
+
+.s7 {
+  left: 450px; }
+
+.s7 {
+  top: 0px; }
+
+/*CSS*/
 .squares {
   position: relative; }
 
 .square {
   border: 1px solid black;
   color: white;
+  font-size: 25px;
+  font-weight: bold;
   height: 100px;
   line-height: 100px;
   position: absolute;
   text-align: center;
-  width: 100px;
-  font-size: 25px;
-  font-weight: bold; }
-
-.s1 {
-  background-color: #FCF407;
-  left: 0px;
-  top: 525px; }
+  width: 100px; }
 
 .s2 {
-  background-color: #FC3700;
-  left: 75px;
-  top: 450px;
   z-index: 3; }
 
 .s3 {
-  background-color: #FCF407;
-  left: 150px;
-  top: 375px;
   z-index: 2; }
 
 .s4 {
-  background-color: #000000;
-  left: 225px;
-  top: 300px;
   z-index: 0; }
 
 .s5 {
-  background-color: #3CE504;
-  left: 300px;
-  top: 225px;
   z-index: 0; }
 
 .s6 {
-  background-color: #040FE5;
-  left: 375px;
-  top: 150px;
   z-index: 2; }
-
-.s7 {
-  background-color: #6300A5;
-  left: 450px;
-  top: 75px; }
